@@ -1,252 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menú</title>
+    <title>Inicio</title>
     <link rel="stylesheet" href="css/sytles.css">
     <script src="https://kit.fontawesome.com/e8eddfdd15.js" crossorigin="anonymous"></script>
+    
+
+    
 </head>
 <body>
-    <div id="sidemenu" class="menu-collapsed">
-        <!--HEADER  -->
-        <div id="header">
-            <div id="title"><span>MELODIFY</span></div>
-            <div id="menu-btn"><i class="fa-solid fa-bars-staggered fa-xl" style="color: #6044a8;"></i></div>
-            
-            <div class="btn-hamburger"></div>
-            <div class="btn-hamburger"></div>
-            <div class="btn-hamburger"></div>
-         
-        </div>
-        <!--PROFILE  -->
-        <div id="profile">
-            <div id="photo"><img src="Img/imag/foto.jpg" alt=""></div>
-            <div id="name"><span>Usuario </span></div>
-        </div>
-        <div id="name"><span></span></div>
+    <nav class="sidebar close" >
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="Img/img1/MELODIFY.png" alt="">
+                </span>
 
-
-        <!--ITEMS  -->
-        <div id="menu-items">
-            <div class="item">
-                <a href="#">
-                    <div class="icon"><i class="fa-solid fa-magnifying-glass fa-xl" style="color: #6044a8;"></i></i></i></div>
-                    <div class="title"><span>Buscar</span></div>
-                </a>
+                <div class="text header-text">
+                    <span class="name"></span>
+                </div>
             </div>
+            <i class="fa-solid fa-angles-right toggle"></i>
+        </header>
 
-            <div class="item-separator"></div>
-
-            <div class="item">
-                <a href="#">
-                    <div class="icon"><i class="fa-regular fa-bookmark fa-xl" style="color: #6044a8;"></i></div>
-                    <div class="title"><span>Tus bibliotecas</span></div>
-                </a>
-            </div>
-
-            <div class="item-separator"></div>
-
-            <div class="item">
-                <a href="#">
-                    <div class="icon"><i class="fa-solid fa-file-arrow-up fa-xl" style="color: #6044a8;"></i></i></div>
-                    <div class="title"><span>Subir contenido</span></div>
-                </a>
-            </div>
-
-            <div class="item-separator"></div>
-
-            <div class="item">
-                <a href="#">
-                    <div class="icon"><i class="fa-solid fa-gears fa-xl" style="color: #6044a8;"></i></div>
-                    <div class="title"><span>Configuraciones</span></div>
-                </a>
-            </div>
-            
-            <div class="item-separator"></div>
-
-            <div class="item">
-                <a href="#">
-                    <div class="icon"><i class="fa-solid fa-user-group fa-xl" style="color: #6044a8;"></i></div>
-                    <div class="title"><span>Acerca de Melodify</span></div>
-                </a>
-            </div>
-        </div>
-       
-    </div>
-    
-    <header>
-        <div class="interior">
-            <nav class="navegacion">
-                <ul>
-                    <img src="img/imag/logo.png" alt="">
-                    <li><a href="">inicio</a></li>
-                    <li class="submenu">
-                        <a href="">Planes</a>
-                        <ul class="hijos">
-                            <li><a href="">Individual</a></li>
-                            <li><a href="">Familiar</a></li>
-                            <li><a href="">Duo</a></li>
-                            <li><a href="">Estudiantil</a></li>
-                        </ul>
+        <div class="menu-bar">
+            <div class="menu">
+                
+                <li class="search-box">
+                    <i class="fa-solid fa-magnifying-glass icon"></i>
+                    <input type="search" placeholder="Search...">
+                </li>
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="fa-solid fa-house icon"></i>
+                            <span class="text nav-text">Inicio</span>
+                        </a>
                     </li>
-                    <li><a href="">¡Regístrate!</a></li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="fa-solid fa-list-ul icon"></i>
+                            <span class="text nav-text">Listas</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="fa-regular fa-bookmark icon"></i>
+                            <span class="text nav-text">Biblioteca</span>
+                        </a>
+                    </li>
+                    
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="fa-regular fa-heart icon"></i>
+                            <span class="text nav-text">Me gustas</span>
+                        </a>
+                    </li>
+                    
                 </ul>
-            </nav>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="#">
+                        <i class="fa-solid fa-arrow-right-from-bracket icon"></i>
+                        <span class="text nav-text">Salir</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                   <div class="moon-sun">
+                        <i class="fa-regular fa-moon icon moon"></i>
+                        <i class="fa-regular fa-sun icon sun"></i>
+                    </div>
+                    <span class="mode-text text">Modo Oscuro</span>
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+
+            </div>
         </div>
+    </nav>
+
+
+    <header class="perfil">
+        <a href="#" id="upgrade">
+            <i class="fa-solid fa-gear"></i>
+        </a>
+        <a href="#" id="profile">
+            <i class="fa-regular fa-user"></i>
+        </a>
     </header>
-    
-    
-    
 
-    
-    <div class="card-container">
-        <div class="card">
-            <img src="img/imag/imgs/artista1.jpg">
-            <div class="card-content">
-                <h3>Coldplay</h3>
-                <p>Artista </p>
-                <a href="" class="btn">Visitar </a>
 
-            </div>
-        </div>
 
-        <div class="card">
-            <img src="img/imag/imgs/artista1.jpg">
-            <div class="card-content">
-                <h3>Coldplay</h3>
-                <p>Artista </p>
-                <a href="" class="btn">Visitar </a>
 
-            </div>
-        </div>
 
+
+
+
+
+    <div class="titulos1">
+        <h2>Artistas.</h2>
+
+    </div>
+
+
+    <article id="featured-content">
         
-
-        <div class="card">
-            <img src="img/imag/imgs/artista11.jpg">
-            <div class="card-content">
-                <h3>ZAYN</h3>
+        <section class="artist-card">
+            <div>
+                <img src="Img/img1/artista1.jpg">
+                <h3>Coldplay</h3>
                 <p>Artista</p>
-                <a href="" class="btn">Visitar </a>
-
+                <span class="play-button"><i class="fas fa-play" aria-hidden="true"></i></span>
             </div>
-        </div>
+        </section>
 
-        <div class="card">
-            <img src="img/imag/imgs/artista3.jpg">
-            <div class="card-content">
+        <section class="artist-card">
+            <div>
+                <img src="Img/img1/artista3.jpg">
                 <h3>Rihanna</h3>
                 <p>Artista</p>
-                <a href="" class="btn">Visitar </a>
-
+                <span class="play-button"><i class="fas fa-play" aria-hidden="true"></i></span>
             </div>
-        </div>
+        </section>
 
-        <div class="card">
-            <img src="img/imag/imgs/artista4.jpg">
-            <div class="card-content">
-                <h3>Flo Milli</h3>
-                <p>Artista </p>
-                <a href="" class="btn">Visitar </a>
-
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="img/imag/imgs/artista5.jpg">
-            <div class="card-content">
+        <section class="artist-card">
+            <div>
+                <img src="Img/img1/artista5.jpg">
                 <h3>Karol G</h3>
-                <p>Artista </p>
-                <a href="" class="btn">Visitar </a>
-
+                <p>Artista</p>
+                <span class="play-button"><i class="fas fa-play" aria-hidden="true"></i></span>
             </div>
-        </div>
+        </section>
+
+        <section class="artist-card">
+            <div>
+                <img src="Img/img1/artista6.jpg">
+                <h3>Drake</h3>
+                <p>Artista</p>
+                <span class="play-button"><i class="fas fa-play" aria-hidden="true"></i></span>
+            </div>
+        </section>
+
+        <section class="artist-card">
+            <div>
+                <img src="Img/img1/artista11.jpg">
+                <h3>ZAYN</h3>
+                <p>Artista</p>
+                <span class="play-button"><i class="fas fa-play" aria-hidden="true"></i></span>
+            </div>
+        </section>
+
+        <section class="artist-card">
+            <div>
+                <img src="Img/img1/artista8.jpg">
+                <h3>Ozuna</h3>
+                <p>Artista</p>
+                <span class="play-button"><i class="fas fa-play" aria-hidden="true"></i></span>
+            </div>
+        </section>
+
+        
+    </article>
+
+   
+
+    <div class="titulos">
+        <h2>Mixes para escuchar.</h2>
     </div>
 
+    <article id="tarjetas">
+        <section class="artistas">
+            <div>
+                <img src="Img/img1/1.jpeg">
+                <h3>Mixes de Feid</h3>
+                <p>Con Mora, Ryan Castro y más...</p>
+                <span class="play-button"><i class="fas fa-play" aria-hidden="true"></i></span>
+            </div>
+        </section>
+
+        <section class="artistas">
+            <div>
+                <img src="Img/img1/2.jpeg">
+                <h3>Mixes de Carin León</h3>
+                <p>Con Grupo Firme, Grupo Frontera, El Fantasma y más...</p>
+                <span class="play-button"><i class="fas fa-play" aria-hidden="true"></i></span>
+            </div>
+        </section>
+
+        <section class="artistas">
+            <div>
+                <img src="Img/img1/3.jpeg">
+                <h3>Mixes de Coldplay</h3>
+                <p>Con OneRepublic, Oasis, Maroon 5 y más...</p>
+                <span class="play-button"><i class="fas fa-play" aria-hidden="true"></i></span>
+            </div>
+        </section>
+
+        <section class="artistas">
+            <div>
+                <img src="Img/img1/4.jpeg">
+                <h3>Mixes de Andrés Cepeda</h3>
+                <p>Con Santiago Cruz, Fonseca, Juan Fernando Velasco y más...</p>
+                <span class="play-button"><i class="fas fa-play" aria-hidden="true"></i></span>
+            </div>
+        </section>
+
+        <section class="artistas">
+            <div>
+                <img src="Img/img1/5.jpeg">
+                <h3>Mixes de Juan Luis Guerra</h3>
+                <p>Con ChiChi Peralta, Sergio Vargas, Eddy Herrera y más...</p>
+                <span class="play-button"><i class="fas fa-play" aria-hidden="true"></i></span>
+            </div>
+        </section>
+
+        <section class="artistas">
+            <div>
+                <img src="Img/img1/6.jpeg">
+                <h3>Mixes de Karol G</h3>
+                <p>Con NATTI NATASHA, Becky G, Manuel Turizo...</p>
+                <span class="play-button"><i class="fas fa-play" aria-hidden="true"></i></span>
+            </div>
+        </section>
+
+        
+    </article>
+
     
+    <div id="titulos1">
+        <h2>Podcast que podrían gustarte.</h2>
+    </div>
 
-
-
-    <body>
-        <div class="card1">
-            <div class="face front">
-                <img src="img/imag/imgs/podcast1.png" alt="">
+    <article id="featured-content1">
+        
+        <section class="artist-card1">
+            <div>
+                <img src="Img/img1/duolingo.png">
                 <h3>Duolingo</h3>
+                <p>Podcast</p>
+                <span class="play-button1"><i class="fas fa-play" aria-hidden="true"></i></span>
             </div>
-            <div class="face back">
-                <h3>Podcast</h3>
-                <p>Disfruta al máximo aprendiendo otro idioma.</p>
-                <div class="link">
-                    <a href="">Escuchar ahora</a>
-                </div>
-            </div>
-        </div>
-    
-        <div class="card1">
-            <div class="face front">
-                <img src="img/imag/imgs/podcast2.jpg" alt="">
-                <h3>Miedo</h3>
-            </div>
-            <div class="face back">
-                <h3>Podcast</h3>
-                <p>Escucha las mejores historias de terror.</p>
-                <div class="link">
-                    <a href="#">Escuchar ahora</a>
-                </div>
-            </div>
-        </div>
+        </section>
 
-        <div class="card1">
-            <div class="face front">
-                <img src="img/imag/imgs/libros.jpg" alt="">
-                <h3>Audiolibros</h3>
-            </div>
-            <div class="face back">
-                <h3>Podcast</h3>
-                <p>Teletransportate por medio de los mejores audiolibros.</p>
-                <div class="link">
-                    <a href="#">Escuchar ahora</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="card1">
-            <div class="face front">
-                <img src="img/imag/imgs/entretenimiento.jpg" alt="">
-                <h3>Entretenimiento</h3>
-            </div>
-            <div class="face back">
-                <h3>Podcast</h3>
-                <p>Goza de lo mejor del entretenimiento.</p>
-                <div class="link">
-                    <a href="#">Escuchar ahora</a>
-                </div>
-            </div>
-        </div>
-    
-        <div class="card1">
-            <div class="face front">
-                <img src="img/imag/imgs/podcast3.jpg" alt="">
+        <section class="artist-card1">
+            <div>
+                <img src="Img/img1/entrevistas.png">
                 <h3>Entrevistas</h3>
+                <p>Podcast</p>
+                <span class="play-button1"><i class="fas fa-play" aria-hidden="true"></i></span>
             </div>
-            <div class="face back">
-                <h3>Podcast</h3>
-                <p>Entérate de lo nuevo sobre las entrevistas.</p>
-                <div class="link">
-                    <a href="#">Escuchar ahora</a>
-                </div>
+        </section>
+
+        <section class="artist-card1">
+            <div>
+                <img src="Img/img1/relatos.png">
+                <h3>Relatos</h3>
+                <p>Podcast</p>
+                <span class="play-button1"><i class="fas fa-play" aria-hidden="true"></i></span>
             </div>
+        </section>
+
+        <section class="artist-card1">
+            <div>
+                <img src="Img/img1/insomnio.png">
+                <h3>Insomnio</h3>
+                <p>Podcast</p>
+                <span class="play-button1"><i class="fas fa-play" aria-hidden="true"></i></span>
+            </div>
+        </section>
+
+        <section class="artist-card1">
+            <div>
+                <img src="Img/img1/casocerrado.png">
+                <h3>Caso Cerrado</h3>
+                <p>Podcast</p>
+                <span class="play-button1"><i class="fas fa-play" aria-hidden="true"></i></span>
+            </div>
+        </section>
+
+        <section class="artist-card1">
+            <div>
+                <img src="Img/img1/harry.png">
+                <h3>Harry Potter</h3>
+                <p>Podcast</p>
+                <span class="play-button1"><i class="fas fa-play" aria-hidden="true"></i></span>
+            </div>
+        </section>
+
+        
+    </article>
+
+   
+
+    <div class="banner-bottom">
+        <div class="content">
+            <p>-------MUESTRA DE MELODIFY-------
+                Regístate para que escuches podcast y tu música favorita sin límites.
+            </p>
         </div>
-
-
-
-
-
-
-
-
-
+        <a href="login.html"  id="btn-full">¡REGÍSTRATE!</a>
+    </div>
 
 
 
@@ -256,66 +316,8 @@
 
     
 
-    <footer class="fin">
-        <div class="music-player">
-            <div class="song-bar">
-                <div class="song-infos">
-                    <div class="image-container">
-                        <img src="img/imag/imgs/artista7.jpg" alt="" />
-                    </div>
-                    <div class="song-description">
-                        <p class="title">
-                            Ghost
-                        </p>
-                        <p class="artist">Justin Bieber</p>
-                    </div>
-                </div>
-                <div class="icons">
-                    <i class="far fa-heart"></i>
-                    <i class="fas fa-compress"></i>
-                </div>
-            </div>
-            <div class="progress-controller">
-                <div class="control-buttons">
-                    <i class="fas fa-random"></i>
-                    <i class="fas fa-step-backward"></i>
-                    <i class="play-pause fas fa-play"></i>
-                    <i class="fas fa-step-forward"></i>
-                    <i class="fas fa-undo-alt"></i>
-                </div>
-                <div class="progress-container">
-                    <span>0:50</span>
-                    <div class="progress-bar">
-                        <div class="progress"></div>
-                    </div>
-                    <span>2:33</span>
-                </div>
-            </div>
-            <div class="other-features">
-                
-                <div class="volume-bar">
-                    <i class="fas fa-volume-down"></i>
-                    <div class="progress-bar">
-                        <div class="progress"></div>
-                    </div>
-                <i class="fas fa-list-ul"></i>
-                <i class="fas fa-desktop"></i>
-                
-                <i class="fa-solid fa-microphone"></i>
 
-                </div>
-            </div>
-        </div>
-    </footer>
-
-
-
-
-
-
-
-
-
+    <script src="script/script.js"></script>
+   
 </body>
-
 </html>
