@@ -1,37 +1,84 @@
-body{
-   background-color: black ;
-   width: 100%;
-   
-   margin: 0 auto;
-   
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
 }
-
 body{
-  background: #000000;
-  background-color: #000000;
-
+    background: #1c1c1c;
+    background-size: cover;
+    background-repeat: no-repeat;    
 }
 .header{
-  display: flex;
-  align-items: center;
-  height: 85px;
-  background-color: #262728;
+    background: rgb(58, 146, 248);
+    padding: 1rem;
 }
-.img1{
-  
-  position: relative;
-  float: left;
-  max-width:0 4000px 0 4000px;
-  margin-right: 0;
-  padding: 100px;
+.header .link{
+    color: #ffffff;
+    font-size: 13px;
 }
 
-.header .logo{
-  cursor: pointer;
-  margin-right: auto;
-  padding-left: 2.0rem;
-  padding-right: 2.0rem;
+.nav{
+    background: #3a3939;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
 }
+.logo-melodify{
+    display: inline-block;
+    cursor: pointer;
+}
+.nav .logo{
+    cursor: pointer;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.nav .logo img{
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+}
+.nav {
+    color: #ffffff;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    padding: 10px 20px;
+}
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background: #3a3939;
+}
+.nav-links li {
+    margin-right: 20px;
+}
+.nav .nav-links a{
+    font-size: 700;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+.nav .nav-links a:hover{
+    color: #6041AD;
+}
+.nav .nav-links .optn:hover{
+    color: #6041AD;
+}
+.optn{
+    cursor: pointer;
+    border-style: none;
+    color: #ffffff;
+}
+.header.nav-links li a:hover{
+    color:rgb(255, 255, 255);
+}
+
 .header .logo img{
    width: 170px;
   height: 170px;
@@ -41,13 +88,7 @@ body{
 .header .logo img:hover{
   transform: scale(1.1);
 }
-.navbar {
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  padding: 10px 20px;
-}
+
 .nav-links {
   
   list-style-type: none;
@@ -70,7 +111,7 @@ body{
   text-decoration: none;
 }
 .optn{
-  background-color: #000000;
+  background-color: #3a3939;;
   border-style: none;
   color: #ffffff;
 }
@@ -82,7 +123,7 @@ body{
 .header.nav-links li a:hover{
   color:rgb(255, 255, 255);
 }
-.header .btn button{
+.btn button{
   margin-left: 20px;
   font-weight: 700;
   color: #6140ad;
@@ -93,13 +134,13 @@ body{
   cursor: pointer;
   transition: all 0.1s ease 0s;
 }
-.header .btn button:hover{
+.btn button:hover{
   background-color:#6140ad;
   color: #ffffff;
   transform: scale(1.1);
 }
 
-.header .btn1 button {
+.btn1 button {
   margin-left: 20px;
   font-weight: 700;
   color: #6140ad;
@@ -111,7 +152,7 @@ body{
   transition: all 0.1s ease 0s;
 }
 
-.header .btn1 button:hover {
+.btn1 button:hover {
   background-color: #6140ad;
   color: #ffffff;
   transform: scale(1.1);
@@ -119,10 +160,8 @@ body{
 
 
 .container .container-text{
-  display:flex;
-  margin-right: 40px;
-  margin-left: 40px;
-  justify-content: center;
+  display: flex;
+  text-align: left;
 }
 .container .container-text p{
   color: #ffffff;
@@ -140,6 +179,7 @@ body{
    margin-left: 100px;
 }
 .container .plan1{
+  font-size: 40px;
    background-color: #3c3a3a;
    border-radius: 10px;
    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
