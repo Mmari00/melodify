@@ -11,16 +11,21 @@ body{
 .header{
     display: flex;
     justify-content: center;
+    height: 100px;
     background-color: rgb(58, 58, 58);
     padding: 1rem;
 }
+.header img{
+    height: 100px;
+}
 .main-content{
-    justify-content: center;
-    width: 50%;
+    margin-left: 15%;
+    margin-right: 15%;
     display: flex;
-    padding: 2rem;
+    padding: 1rem;
     background-color: rgb(58, 58, 58);
-    margin: 3rem;
+    margin-left: 15%;
+    margin-right: 15%;
     border-radius: 1rem;
 }
 .content input{
@@ -28,4 +33,11 @@ body{
 }
 .content h2{
     text-align: center;
+}
+.content .boton{
+    background-color: rgb(73, 38, 126);
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    margin-left: 50%;
 }
