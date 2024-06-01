@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/pago.css">
+    <link rel="stylesheet" href="tailwindcss-colors.css">
+</head>
+<body>
+    <header class="header">
+        <p>Colombia (English)</p><i class="fa-solid fa-x icon"></i>
+    </header>
+<nav class="nav">
+    <div class="logo">
+        <img src="Img/image/LOGO-MELODIFY.png" alt="">
+    </div>
+        <ul class="nav-links">
+            <li><select name="" id="" class="optn">
+                    <option value="#">Premium</option>
+                    <option value="#">Premium Individual</option>
+                    <option value="#">Premium Duo</option>
+                    <option value="#">Premium Familiar</option>
+                    <option value="#">Premium para Estudiantes</option>
+                    <option value="#">Gratuito</option>
+                </select></li>
+            <li><a href="Empezar.html">Ayuda</a></li>
+            <li><a href="Empezar.html">Descargar</a></li>
+            <li><select name="" id="" class="optn">
+                    <option value="#">Perfil</option><i class="fa-solid fa-square-user icon"></i>
+                    <option value="#">Cuenta</option>
+                    <option value="#">Cerrar sesión</option>
+                </select></li>
+        </ul>
+</nav>
+
+<!-- start: Payment -->
+<section class="payment-section">
+    <div class="container">
+        <div class="payment-wrapper">
+            <div class="payment-left">
+                <div class="payment-header">
+                    <div class="payment-header-icon"><i class="ri-flashlight-fill"></i></div>
+                    <div class="payment-header-title">Resumen del pago</div>
+                    <p class="payment-header-description">0 meses <br>
+                    Plan de pago único por $ 000.000,00.</p>
+                </div>
+                <div class="payment-content">
+                    <div class="payment-body">
+                        <div class="payment-plan">
+                            <div class="payment-plan-type">Pro</div>
+                            <div class="payment-plan-info">
+                                <div class="payment-plan-info-name">Plan Individual</div>
+                                <div class="payment-plan-info-price">$ 000.000,00 por 0 meses</div>
+                            </div>
+                            <a href="planes.html" class="payment-plan-change">Cambiar</a>
+                        </div>
+                        <div class="payment-summary">
+                            <div class="payment-summary-item">
+                                <div class="payment-summary-name">1 cuenta Premium.</div>
+                            </div>
+                            <div class="payment-summary-item">
+                                <div class="payment-summary-name">Controla el contenido etiquetado como explícito.</div>
+                            </div>
+                            <div class="payment-summary-divider"></div>
+                            <div class="payment-summary-item payment-summary-total">
+                                <div class="payment-summary-name">Cancela cuando quieras.</div>
+                            </div>
+                            <div class="payment-summary-item">
+                                <div class="payment-summary-name">Suscríbete o haz un solo pago.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="payment-right">
+                <form action="" class="payment-form">
+                    <h1 class="payment-title">Detalles del pago</h1>
+                    <div class="payment-method">
+                        <input type="radio" name="payment-method" id="method-1" checked>
+                        <label for="method-1" class="payment-method-item">
+                            <img src="Img/pago/visa.png" alt="">
+                        </label>
+                        <input type="radio" name="payment-method" id="method-2">
+                        <label for="method-2" class="payment-method-item">
+                            <img src="Img/pago/mastercard.png" alt="">
+                        </label>
+                        <input type="radio" name="payment-method" id="method-3">
+                        <label for="method-3" class="payment-method-item">
+                            <img src="Img/pago/paypal.png" alt="">
+                        </label>
+                        <input type="radio" name="payment-method" id="method-4">
+                        <label for="method-4" class="payment-method-item">
+                            <img src="Img/pago/stripe.png" alt="">
+                        </label>
+                    </div>
+                    <div class="payment-form-group">
+                        <input type="email" placeholder=" " class="payment-form-control" id="email">
+                        <label for="email" class="payment-form-label payment-form-label-required">Dirección de correo electrónico</label>
+                    </div>
+                    <div class="payment-form-group">
+                        <input type="text" placeholder=" " class="payment-form-control" id="card-number">
+                        <label for="card-number" class="payment-form-label payment-form-label-required">Número de tarjeta</label>
+                    </div>
+                    <div class="payment-form-group-flex">
+                        <div class="payment-form-group">
+                            <input type="date" placeholder=" " class="payment-form-control" id="expiry-date">
+                            <label for="expiry-date" class="payment-form-label payment-form-label-required">Fecha de caducidad</label>
+                        </div>
+                        <div class="payment-form-group">
+                            <input type="text" placeholder=" " class="payment-form-control" id="cvv">
+                            <label for="cvv" class="payment-form-label payment-form-label-required">CVV</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="payment-form-submit-button"><a href="inicio.html" style="color: white; text-decoration: none;"><i class="ri-wallet-line"></i> Pagar</a></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end: Payment -->
+</body>
+</html>
