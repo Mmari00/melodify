@@ -1,5 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
 :root{
-    --body-color: #000;
+    --body-color: #919191;
     --sidebar-color: #fff;
     --primary-color: #6041AD;
     --primary-color-light: #f6f5ff;
