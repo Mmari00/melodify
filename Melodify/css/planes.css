@@ -10,6 +10,7 @@ body{
     background: #1c1c1c;
     background-size: cover;
     background-repeat: no-repeat;    
+   
 }
 
 .header {
@@ -90,6 +91,7 @@ a:hover i {
 .container .container-text{
   display: flex;
   text-align: left;
+  
 }
 .container .container-text p{
   color: #ffffff;
@@ -102,7 +104,7 @@ a:hover i {
    color: #fff;
    gap: 20px;
    height: 100vh;
-   padding-top: 40px;
+   padding-top: 70px;
    margin-right: 100px;
    margin-left: 100px;
 }
