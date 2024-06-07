@@ -9,7 +9,9 @@
 body{
     background: #1c1c1c;
     background-size: cover;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat; 
+    flex-wrap: wrap;   
+    min-width: 250px;
    
 }
 
@@ -29,6 +31,8 @@ nav {
   justify-content: space-around;
   background: #000000;
   height: 85px;
+     
+  
 }
 .logo{
   margin-top: 30px;
@@ -87,7 +91,10 @@ a:hover i {
 }
 
 
-
+.container{
+  flex-wrap: wrap;   
+    min-width: 250px;
+}
 .container .container-text{
   display: flex;
   text-align: left;
@@ -107,6 +114,8 @@ a:hover i {
    padding-top: 70px;
    margin-right: 100px;
    margin-left: 100px;
+   flex-wrap: wrap;   
+    min-width: 250px;
 }
 .container .plan1{
   font-size: 40px;
@@ -156,6 +165,8 @@ a:hover i {
   width: 280px;
   justify-content: center;
   height: 280px;  
+  flex-wrap: wrap;   
+    min-width: 250px;
 }
 
 .container button{
@@ -187,6 +198,8 @@ footer {
   display: grid;
   grid-template-columns: 4fr 1fr;
   place-items: center;
+  flex-wrap: wrap;   
+    min-width: 400px;
   align-items: flex-start;
 }
 
