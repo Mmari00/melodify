@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px; 
+    height: 40px; 
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.auth-buttons .acceder,
+.auth-buttons .iniciar-sesion {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.auth-buttons .acceder {
+    background-color: #e0e0e0;
+    color: black;
+}
+
+.auth-buttons .iniciar-sesion {
+    background-color: #7d4ab2;
+    color: white;
+}
+
+.container {
+    width: 60%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.breadcrumb {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.invite-section h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.invite-section p {
+    font-size: 16px;
+    color: #555;
+}
+
+.invite-section ol {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.invite-section ol li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.invite-section h2 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E8E1F3;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact-section p {
+    margin: 0;
+    color: #666;
+}
+
+.contact-button {
+    background-color: #4A3F7A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: #3A2F6A;
+}
+
+.feedback-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.feedback-buttons {
+    display: inline-flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.feedback-yes, .feedback-no {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.feedback-yes:hover, .feedback-no:hover {
+    background-color: #444;
+}
