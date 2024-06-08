@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melodify para creadores</title>
+    <link rel="stylesheet" href="css/ayuda-creadores.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="Img/img/logo.png" alt="Melodify Logo">
+        </div>
+        <div class="title">Melodify para creadores</div>
+    </header>
+    <main class="container">
+        <h1>¡Sube tu contenido!</h1>
+        <p class="lema">“Cada nota, cada melodía, cada letra cuenta una historia. ¡Haz que tu música cuente la tuya!”</p>
+        <p class="author">Melodify</p>
+        <form>
+            <fieldset>
+                <legend>Información del archivo</legend>
+                <label for="title">
+                    <span class="icon">📄</span> Título:
+                    <input type="text" id="title" name="title">
+                </label>
+                <label for="creator">
+                    <span class="icon">👤</span> Nombre del Creador:
+                    <input type="text" id="creator" name="creator">
+                </label>
+                <label for="upload">
+                    <span class="icon">📁</span> Carga tu archivo:
+                    <input type="file" id="upload" name="upload">
+                </label>
+                <label for="image">
+                    <span class="icon">🖼️</span> Imagen del archivo (este aparecerá cuando se reproduzca la canción):
+                    <input type="file" id="image" name="image">
+                </label>
+                <label for="edit">
+                    <span class="icon">✍️</span> Edita tu archivo si es necesario:
+                    <textarea id="edit" name="edit"></textarea>
+                </label>
+                <label for="plagiarism">
+                    <span class="icon">🔍</span> Zona de detección de plagio (esto tomará algún tiempo):
+                    <input type="text" id="plagiarism" name="plagiarism">
+                </label>
+                <label for="cloud">
+                    <span class="icon">☁️</span> Cargando en la nube (esto tomará algún tiempo):
+                    <input type="text" id="cloud" name="cloud">
+                </label>
+                <br>
+                <br>
+                <button type="submit">Subir contenido a Melodify</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer class="footer"></footer>
+</body>
+</html>

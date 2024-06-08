@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px; 
+    height: 50px; 
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.auth-buttons .acceder,
+.auth-buttons .iniciar-sesion {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.auth-buttons .acceder {
+    background-color: #e0e0e0;
+    color: black;
+}
+
+.auth-buttons .iniciar-sesion {
+    background-color: #7d4ab2;
+    color: white;
+}
+.container {
+    width: 60%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.breadcrumb {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.invite-section h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.related-articles {
+    background-color: #D3D3D3;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.related-articles p {
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+
+.related-articles a {
+    display: block;
+    color: #4A3F7A;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.related-articles a:hover {
+    text-decoration: underline;
+}
+
+.contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #917AC4;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    margin: 0;
+}
+
+.contact-button {
+    background-color: white;
+    color: #4A3F7A;
+    border: 2px solid #4A3F7A;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: #4A3F7A;
+    color: white;
+}
+
+.feedback-section {
+    text-align: center;
+}
+
+.feedback-buttons {
+    display: inline-flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.feedback-yes, .feedback-no {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.feedback-yes:hover, .feedback-no:hover {
+    background-color: #444;
+}

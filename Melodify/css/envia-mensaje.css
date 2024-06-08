@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.auth-buttons .acceder,
+.auth-buttons .iniciar-sesion {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.auth-buttons .acceder {
+  background-color: #e0e0e0;
+  color: black;
+}
+
+.auth-buttons .iniciar-sesion {
+  background-color: #7d4ab2;
+  color: white;
+}
+.message-section {
+  background-color: #d3d3d3;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.header {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 0;
+  color: #333;
+}
+
+.description {
+  font-size: 14px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.send-message-button {
+  background-color: #4a3f7a;
+  color: white;
+  border: 2px solid #4a3f7a;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.send-message-button:hover {
+  background-color: #3a2f6a;
+}
+
+.privacy-note {
+  font-size: 12px;
+  margin-top: 20px;
+  color: #666;
+}
+
+.privacy-note a {
+  color: #4a3f7a;
+  text-decoration: none;
+}
+
+.privacy-note a:hover {
+  text-decoration: underline;
+}
