@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+body{
+    display: inline;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    height: 85px;
+}
+.logo{
+    margin-top: 25px;
+    margin-right: 50rem;
+}
+.nav_links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    padding: .5rem 1.5rem;
+    font-size: .95rem;
+}
+.btn button {
+    font-weight: 700;
+    color: #6140ad;
+    padding: 9px 25px;
+    background: #ffffff;
+    border-color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.1s ease 0s;
+    margin-left: 34rem;
+    
+
+}
+
+.btn button:hover {
+    background-color: #6140ad;
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+.btn1 button {
+    font-weight: 700;
+    color: #6140ad;
+    padding: 9px 25px;
+    background: #ffffff;
+    border-color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.1s ease 0s;
+    
+    margin-left:15rem;
+}
+
+.btn1 button:hover {
+    background-color: #6140ad;
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+.line {
+    display: inline-block;
+    width: 1px;
+    height: 1rem;
+    background-color: #fff;
+}
+
+a:hover,
+a:hover i {
+    color: #6140ad;
+}
+
+
+body{
+    background-image: url(creadores/logo\ orquesta\ de\ salsa\ retro\ amarillo\ y\ negro\ \(1\).png);
+    width: 200px;
+    height: 200px;
+}
+.cuerpo{
+    
+    color: #ffffff;
+    font-size: 25px;
+    margin-top: 5rem;
+    margin-left: 18rem;
+    font-family:'Poppins', sans-serif;
+}
+.card1{
+    background: #1d1d1d;
+    width: 400px;
+    height: 350px;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    margin-left: 10rem;
+    
+}
+.card1:hover{
+    cursor: pointer;
+    
+    
+}
+.card2{
+    background: transparent;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    margin-left: 800px;
+    margin-top: -300px;
+    
+}
+.card2:hover{
+    cursor: pointer;
+    background: #cccccc39;
+    
+}
+.contenido{
+    color: #ffffff;
+    font-family:'Poppins', sans-serif;
+    margin-left: 95px;
+    
+}
+
