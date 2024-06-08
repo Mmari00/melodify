@@ -5,23 +5,24 @@ body {
   background-color: #2f2f2f;
   color: white;
 }
-
-.header {
+.navbar {
+  background: #000;
+  height: 85px;
+  color: white;
   display: flex;
   align-items: center;
-  padding: 10px;
-  background-color: black;
+  position: relative;
+  z-index: 10;
+  width: 100%;
+}
+a:hover,
+a:hover i {
+    color: #6140ad;
 }
 
-.logo img {
-  width: 150px;
-  height: auto;
-}
-
-.title {
-  color: #ffffff;
-  font-size: 40px;
-  margin-left: 10px;
+.logo {
+  margin-left: 85px;
+  margin-top: 40px;
 }
 
 .container {
@@ -107,4 +108,92 @@ button {
 
 button:hover {
   background-color: #8e7a9e;
+}
+footer {
+  position: relative;
+  background-color: #000;
+  min-height: 60vh;
+  width: 100%;
+  padding: 4rem 0;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  place-items: center;
+  align-items: flex-start;
+}
+
+footer * {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer h5 {
+  opacity: .4;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: .05rem;
+}
+
+.web_links_container {
+  display: flex;
+}
+
+img {
+  display: flex;
+
+}
+
+.web_links {
+  margin-left: 3rem;
+  display: flex;
+  align-items: flex-start;
+  column-gap: 3rem;
+}
+
+.web_links>div {
+  display: flex;
+  flex-direction: column;
+}
+
+.web_links a,
+.web_links h5 {
+  margin: .5rem 0;
+  font-size: .9rem;
+}
+
+.social_links {
+  display: flex;
+  margin-right: 10rem;
+}
+
+.social_links a {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: #222326;
+  border-radius: 50%;
+  margin: 0 .5rem;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.other_links,
+.copyright {
+  opacity: .5;
+  font-size: .7rem;
+  margin-top: 6rem;
+}
+
+.other_links a {
+  margin: 0 .5rem;
+}
+
+.copyright {
+  margin-top: 4rem;
+  text-align: right;
+}
+
+.copyright a {
+  display: block;
+  margin-bottom: .5rem;
 }
