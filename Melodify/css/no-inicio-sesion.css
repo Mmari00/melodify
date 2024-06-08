@@ -49,6 +49,7 @@ nav ul li a {
     padding: 5px 10px;
     border: none;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .auth-buttons .acceder {
