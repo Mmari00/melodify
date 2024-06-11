@@ -316,6 +316,7 @@ body.dark .switch::before{
     margin-right: -255px;
     width: 250px;
     height: 150px;
+    cursor: pointer;
     
 }
 .artist-card div{
